@@ -33,11 +33,5 @@ def main():
     except ZeroDivisionError:
         print("Cannot divide by zero.")
 
-    # Type hinting
-    def greet(name: str) -> str:
-        return f"Hi, {name}!"
-
-    greeting = greet("Bob")  # Code Assist will provide type hints for 'name' and the return value
-
 if __name__ == "__main__":
     main()
